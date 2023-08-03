@@ -96,9 +96,14 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
     // 增加一个 loading 的状态
     childrenRender: (children) => {
       // if (initialState?.loading) return <PageLoading />;
+      // @ts-ignore
+      // @ts-ignore
+      // @ts-ignore
+      // @ts-ignore
       return (
         <>
           {children}
+          {/*@ts-ignore*/}
           <SettingDrawer
             disableUrlParams
             enableDarkTheme
@@ -113,6 +118,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
         </>
       );
     },
+    // @ts-ignore
     ...initialState?.settings,
   };
 };

@@ -30,6 +30,7 @@ const Login: React.FC = () => {
    *
    **/
   const fetchUserInfo = async () => {
+    // @ts-ignore
     const userInfo: API.BaseResponseUser_ = await getUserByIdUsingGET();
     if (userInfo) {
       flushSync(() => {

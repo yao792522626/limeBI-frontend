@@ -17,7 +17,7 @@ const Settings: ProLayoutProps & {
   colorWeak: false,
   title: '智能 BI 数据分析平台',
   pwa: true,
-  logo: '',
+  logo: 'https://github.com/yao792522626/Lime/blob/main/public/favicon.ico',
   iconfontUrl: '',
   token: {
     // 参见ts声明，demo 见文档，通过token 修改样式

@@ -3,41 +3,54 @@ import { PageContainer } from '@ant-design/pro-components';
 import '@umijs/max';
 import { Alert, Card, Typography } from 'antd';
 import React from 'react';
+
+const { Title} = Typography;
+
+/**
+ *
+ * @constructor
+ */
 const Admin: React.FC = () => {
   return (
-    <PageContainer content={' 这个页面只有 admin 权限才能查看'}>
+    <PageContainer content={' 管理员权限介绍 '}>
       <Card>
-        <Alert
-          message={'更快更强的重型组件，已经发布。'}
-          type="success"
-          showIcon
-          banner
-          style={{
-            margin: -12,
-            marginBottom: 48,
-          }}
-        />
         <Typography.Title
           level={2}
           style={{
             textAlign: 'center',
           }}
         >
-          <SmileTwoTone /> 智能AI数据分析平台 <HeartTwoTone twoToneColor="#eb2f96" /> You
+          <SmileTwoTone /> 智能 BI 管理界面
+          <HeartTwoTone twoToneColor="#eb2f96" />
         </Typography.Title>
+
+        <Alert
+          message={'全力打造智能BI系统'}
+          style={{
+            margin: -12,
+            marginBottom: 48,
+            textAlign:"center"
+          }}
+        />
+        <Title level={1} style={{color:"#0015ff",textAlign:"left"}}>
+          管理员特权
+        </Title>
+        <Title level={4}  style={{color:"rgb(0,42,255)"}}>
+          1. 增删改查用户
+        </Title>
+        <Title level={4} style={{color:"rgba(0,21,255,0.9)"}}>
+          2. 调用平台所有接口服务
+        </Title>
+        <Title level={4} style={{color:"rgba(0,34,255,0.87)"}}>
+          3. 更好进行图表管理
+        </Title>
+        <Title level={4} style={{color:"#0015ff"}}>
+          4. 可以查看所有用户生成的图表
+        </Title>
+        <Title level={4} style={{color:"#003cff"}}>
+          5. 管理用户的订单
+        </Title>
       </Card>
-      <p
-        style={{
-          textAlign: 'center',
-          marginTop: 24,
-        }}
-      >
-        Want to add more pages? Please refer to{' '}
-        <a href="https://pro.ant.design/docs/block-cn" target="_blank" rel="noopener noreferrer">
-          use block
-        </a>
-        。
-      </p>
     </PageContainer>
   );
 };

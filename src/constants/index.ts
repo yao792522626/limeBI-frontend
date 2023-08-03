@@ -8,7 +8,7 @@
  * 项目logo
  */
 import loginImage from '../../public/loginImage.jpg';
-import logo from '../../public/logo.png';
+import logo from '../../public/logo.svg';
 import registerImage from '../../public/registerImage.jpg';
 
 export const IMAGES = [
@@ -39,9 +39,9 @@ export const REGISTER_BACKGROUND_IMAGE = registerImage;
 /**
  * shier介绍
  */
-export const WELCOME = 'https://blog.csdn.net/qq_56098191';
+export const WELCOME = 'https://github.com/yao792522626';
 
-export const CSDN_LINK = 'https://blog.csdn.net/qq_56098191';
+export const GitHub_LINK = 'https://github.com/yao792522626';
 
 export const CHART_TYPE_SELECT = [
   { value: '折线图', label: '折线图' },
@@ -86,49 +86,52 @@ export const selectUserRole = [
 ];
 export const selectAvatarUrl = [
   {
-    value:
-      'https://p3-passport.byteimg.com/img/user-avatar/2ea9106b748a0b88d5bfcf517a4dc2ef~180x180.awebp',
+    value: 'https://yupi.icu//logo.png',
     label: '默认头像',
   },
   {
     value:
-      'https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8f11d5f659e4babad1be4aab185acb6~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
-    label: '动漫美女',
+      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a0ac3a25d89442f880b5c34c58d075e2~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp',
+    label: '搞笑头像',
   },
-  { value: 'https://img-blog.csdnimg.cn/3a7f9cd5c6604307be5a78017cb52e34.jpeg', label: '小美女' },
   {
     value:
-      'https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/33d8f1d47ed24eb4b5f6e80f0300f20b~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
+      'https://ts1.cn.mm.bing.net/th?id=OIP-C.jPAdOeN1Z3hyeR9EnQghBAHaNK&w=187&h=333&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2',
+    label: '男生头像',
+  },
+  {
+    value:
+      'https://ts1.cn.mm.bing.net/th?id=OIP-C.jPAdOeN1Z3hyeR9EnQghBAHaNK&w=187&h=333&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2',
     label: '御姐1号',
   },
   {
     value:
-      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8b809c804414e2d86677b1952092d52~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
+      'https://ts1.cn.mm.bing.net/th?id=OIP-C.lgs9Nx7Ur4eIwfxKjIiZMwHaKk&w=209&h=298&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2',
     label: '小姐姐2号',
   },
   {
     value:
-      'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e020ad610d3241b69a7cb492a210df03~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
+      'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7e5f5893a1544dfabd6094b1a25b12fa~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?',
     label: '小姐姐3号',
   },
   {
     value:
-      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9f4b4b8ff4a84406bfe18f6a27a3e3f8~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
+      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3c970503d7a94863b5951c123b82b19d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?',
     label: '小姐姐4号',
   },
   {
     value:
-      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/14e4ebc30a124d7ca30c41d6e8fd0497~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
+      'https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2020/4/8/17157fe88025c70d~tplv-t2oaga2asx-zoom-in-crop-mark:4536:0:0:0.image',
     label: '小姐姐5号',
   },
   {
     value:
-      'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d210d1b4c3434e72b2e9711dedcb6cfa~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
+      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/990c553af0ad438d915ba06517536fdd~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp',
     label: '小姐姐6号',
   },
   {
     value:
-      'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5371651be7c74109a685d3d801f73f52~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?',
+      'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/990c553af0ad438d915ba06517536fdd~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp',
     label: '小姐姐7号',
   },
 ];

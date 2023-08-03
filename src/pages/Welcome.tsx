@@ -65,6 +65,7 @@ const Welcome: React.FC = () => {
           <Carousel autoplay autoplaySpeed={2000}>
             {loadedImages.map((image, index) => (
               <div key={index}>
+                {/*@ts-ignore*/}
                 <Image src={image.default} />
               </div>
             ))}
