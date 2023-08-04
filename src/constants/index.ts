@@ -10,6 +10,7 @@
 import loginImage from '../../public/loginImage.jpg';
 import logo from '../../public/logo.svg';
 import registerImage from '../../public/registerImage.jpg';
+import chinaMap from '../../public/china.webp';
 
 export const IMAGES = [
   import('../../public/catImage/image1.jpg'),
@@ -35,6 +36,8 @@ export const SYSTEM_LOGO = logo;
 export const LOGIN_BACKGROUND_IMAGE = loginImage;
 
 export const REGISTER_BACKGROUND_IMAGE = registerImage;
+
+export const CHINA_MAP = chinaMap;
 
 /**
  * shier介绍

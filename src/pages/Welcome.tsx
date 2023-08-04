@@ -1,8 +1,9 @@
 import { IMAGES } from '@/constants';
 import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
 import { PageContainer } from '@ant-design/pro-components';
-import { Alert, Card, Carousel, Divider, Image, Typography } from 'antd';
+import { Alert, Button, Card, Carousel, Divider, Image, Typography } from 'antd';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'umi';
 
 /**
  * 每个单独的卡片，为了复用样式抽成了组件
@@ -33,6 +34,9 @@ const Welcome: React.FC = () => {
 
   return (
     <PageContainer content={' 欢迎来到熊猫智能BI平台'}>
+      <Link to={'/dataScreen'}>
+        <Button style={{ marginBottom: 20 }}>查看数据可视化大屏</Button>
+      </Link>
       <Card>
         <Alert
           message={'欢迎使用Lime的智能BI平台！'}

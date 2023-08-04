@@ -7,7 +7,8 @@
       { name: '注册', path: '/user/regiter', component: './User/Register' },
     ],
   },
-  { name: '欢迎页面', path: '/welcome', icon: 'smile', component: './Welcome' },
+  { name: '首页', path: '/welcome', icon: 'smile', component: './Welcome' },
+  { name: '数据大屏', path: '/dataScreen', layout: false, component: './DataScreen' },
   {
     name: 'BI智能分析(同步)',
     icon: 'BarChartOutlined',
@@ -75,7 +76,7 @@
       },
     ],
   },
-  { path: '/', redirect: '/welcome' },
+  { path: '/', redirect: '/dataScreen' },
   { name: '404页面', path: '*', layout: false, component: './Error/404' },
 ];
 //@ts-ignore
